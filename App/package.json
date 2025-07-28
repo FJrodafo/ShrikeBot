@@ -1,0 +1,41 @@
+{
+  "name": "shrikebot",
+  "version": "1.0.0",
+  "description": "A ShrikeBot clone made in JavaScript!",
+  "keywords": [
+    "discord",
+    "app",
+    "shrike",
+    "bot",
+    "dauntless",
+    "npmjs",
+    "nodejs",
+    "discordjs",
+    "javascript",
+    "fjrodafo"
+  ],
+  "homepage": "https://github.com/FJrodafo/ShrikeBot#readme",
+  "bugs": {
+    "url": "https://github.com/FJrodafo/ShrikeBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FJrodafo/ShrikeBot.git"
+  },
+  "license": "MIT",
+  "author": "FJrodafo - Francisco José Rodríguez Afonso",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/deploy-commands.js && node ./src/index.js",
+    "eslint": "eslint './**/*.js'",
+    "eslintfix": "eslint './**/*.js' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0"
+  }
+}
