@@ -10,18 +10,18 @@ module.exports = {
      * @returns messages depending on the content
      */
     async execute(message) {
-        const hoots = [
-            'hoOOot!',
-            'HOooOT!',
-            'HOOoot!',
-            'hooOOT!',
-        ];
+        const hoots = ['hoOOot!', 'HOooOT!', 'HOOoot!', 'hooOOT!'];
+        const hootVariants = ['hoot', 'hoot!'];
 
         if (message.author.bot) return;
-        if (message.content.toLowerCase() === 'hoot!') {
+        
+        // Check if the content contains any variant of "hoot"
+        if (hootVariants.some(variant => message.content.toLowerCase().includes(variant))) {
             const randomhoot = hoots[Math.floor(Math.random() * hoots.length)];
             await message.channel.send(randomhoot);
         }
-        if (message.content.toLowerCase() === 'sleep') await message.channel.send('HOOoottzzzz...');
+
+        // It also works even if "sleep" is inside a sentence
+        if (message.content.toLowerCase().includes('sleep')) await message.channel.send('HOOoottzzzz...');
     },
 };
