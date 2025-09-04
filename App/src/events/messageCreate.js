@@ -14,7 +14,7 @@ module.exports = {
         const hootVariants = ['hoot', 'hoot!'];
 
         if (message.author.bot) return;
-        
+
         // Check if the content contains any variant of "hoot"
         if (hootVariants.some(variant => message.content.toLowerCase().includes(variant))) {
             const randomhoot = hoots[Math.floor(Math.random() * hoots.length)];
