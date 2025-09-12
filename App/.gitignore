@@ -3,3 +3,6 @@
 
 # secrets
 /src/config.json
+
+# misc
+/alpha
