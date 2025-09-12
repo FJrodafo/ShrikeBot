@@ -1,15 +1,15 @@
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
-    category: 'website',
+    category: 'links',
     cooldown: 60,
     data: new SlashCommandBuilder()
-        .setName('trials')
-        .setDescription('Posts a link to the trials page!')
+        .setName('builder')
+        .setDescription('Posts a link to Dauntless Builder')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Hoot\'s the current trials: https://playdauntless.com/trials/',
+            content: 'Shrike hoots you a link: https://dauntless-builder.com/',
             ephemeral: true,
         });
     },

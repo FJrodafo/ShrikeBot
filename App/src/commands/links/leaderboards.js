@@ -1,15 +1,15 @@
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
-    category: 'guide',
+    category: 'links',
     cooldown: 60,
     data: new SlashCommandBuilder()
-        .setName('strikers')
-        .setDescription('Posts a link to a guide on how to complete the striker quest!')
+        .setName('leaderboards')
+        .setDescription('Posts a link to Dauntless Leaderboards')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Here\'s how to Hoot your striker quest: https://youtu.be/sQ3vDpgt0e0',
+            content: 'Shrike hoots you a link: https://dauntless-leaderboards.com/',
             ephemeral: true,
         });
     },
