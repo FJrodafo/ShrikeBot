@@ -8,8 +8,8 @@ module.exports = {
         console.log(`Server count: ${client.guilds.cache.size}`);
         const status = [
             { activities: [{ name: 'Hoot!', type: ActivityType.Custom }], status: 'online' },
-            { activities: [{ name: 'slayers', type: ActivityType.Listening }], status: 'idle' },
-            { activities: [{ name: 'slayers', type: ActivityType.Watching }], status: 'dnd' },
+            { activities: [{ name: 'Cris Velasco', type: ActivityType.Listening }], status: 'idle' },
+            { activities: [{ name: 'Slayers', type: ActivityType.Watching }], status: 'dnd' },
             { activities: [{ name: 'Dauntless', type: ActivityType.Playing }], status: 'idle' },
             { activities: [{ name: 'Trials', type: ActivityType.Competing }], status: 'dnd' },
             { activities: [{ name: 'Gauntlet', type: ActivityType.Competing }], status: 'dnd' },
