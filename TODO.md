@@ -7,7 +7,7 @@
 - [x] Admin
     - [x] [Ping](./App/src/commands/admin/ping.js)
 - [ ] Hoot
-    - [ ] [2cute](./App/src/commands/hoot/2cute.js)
+    - [x] [2cute](./App/src/commands/hoot/2cute.js)
     - [ ] [Euan](./App/src/commands/hoot/euan.js)
 - [ ] Info
     - [ ] [Amps](./App/src/commands/info/amps.js)
