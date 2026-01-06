@@ -177,6 +177,3 @@ There are currently no tests configured.
 ## Credits
 
 Thanks to [Syraleaf](https://github.com/Syraleaf) for sharing the [commands.pdf](https://github.com/FJrodafo/ShrikeBot/blob/main/App/src/assets/commands.pdf) file with a list of each and every command for the original ShrikeBot.
-
-<link rel="stylesheet" href="./README.css">
-<a class="scrollup" href="#top">&#x1F53C</a>
