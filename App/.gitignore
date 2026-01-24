@@ -4,8 +4,5 @@
 # secrets
 /src/config.json
 
-# misc
-/alpha
-
 # backup
 /src/assets/backup
