@@ -1,3 +1,7 @@
+# ShrikeBot
+
+A ShrikeBot clone made in JavaScript!
+
 ## Index
 
 1. [Attribution](#attribution)
