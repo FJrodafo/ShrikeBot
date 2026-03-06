@@ -2,6 +2,9 @@
 
 A ShrikeBot clone made in JavaScript!
 
+[![Discord](https://img.shields.io/discord/1333530700917375027?style=flat&logo=discord&logoColor=ffffff&label=&color=5865F2)](https://discord.gg/DXP43ZEwac)
+[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/ShrikeBot?style=social&logo=github&logoColor=000000&label=Stars&labelColor=ffffff&color=ffffff)](https://github.com/FJrodafo/ShrikeBot/stargazers)
+
 ## Index
 
 1. [Attribution](#attribution)
