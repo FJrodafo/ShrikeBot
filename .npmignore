@@ -1,0 +1,16 @@
+# Git
+/.git
+.gitattributes
+.gitignore
+
+# GitHub
+/.github
+
+# VSCode
+/.vscode
+
+# Releases
+/releases
+
+# Secrets
+/src/config.json
