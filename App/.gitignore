@@ -1,8 +1,0 @@
-# dependencies
-/node_modules
-
-# secrets
-/src/config.json
-
-# backup
-/src/assets/backup

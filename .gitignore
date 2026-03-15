@@ -1,1 +1,9 @@
-Releases/
+# Dependencies
+/node_modules
+
+# Secrets
+/src/config.json
+.env
+
+# Releases
+/releases/v*
