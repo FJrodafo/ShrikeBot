@@ -11,3 +11,6 @@
 
 # Releases
 /releases
+
+# Secrets
+/src/config.json
