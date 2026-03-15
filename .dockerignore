@@ -1,4 +1,13 @@
+# Git
+/.git
+.gitattributes
+.gitignore
+
+# GitHub
 /.github
+
+# VSCode
 /.vscode
-/node_modules
+
+# Releases
 /releases
