@@ -1,3 +1,7 @@
+## Tasks
+
+- [ ] Create a Docker image/container and push it to Docker Hub and GitHub Packages.
+
 ## Host
 
 - [ ] Find a reliable hosting system to host the bot 24/7.
