@@ -37,4 +37,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - All files (Existing project).
 
 [unreleased]: https://github.com/FJrodafo/ShrikeBot/compare/0.1.0-alpha...HEAD
-[0.1.0-alpha]: https://github.com/FJrodafo/ShrikeBot/commits/0.1.0-alpha
+[0.1.0-alpha]: https://github.com/FJrodafo/ShrikeBot/releases/tag/0.1.0-alpha
