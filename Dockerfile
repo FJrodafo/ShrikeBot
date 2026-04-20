@@ -1,21 +1,32 @@
-# syntax=docker/dockerfile:1
+# ─────────
+#  Stage 1 
+# ─────────
+FROM node:24-alpine AS deps
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
 
-# Use the official lightweight Node.js 22.14-slim image.
-# https://hub.docker.com/_/node
-FROM node:22.14-slim
-
-# Create and change to the app directory.
-WORKDIR /App
-
-# Copy application dependency manifests to the container image.
-# A wildcard is used to ensure both package.json and package-lock.json are copied.
-COPY package*.json ./
-
-# Install all dependencies.
-RUN npm install
-
-# Copy local code to the container image.
-COPY . .
-
-# Run the web service on container startup.
-CMD [ "npm", "start" ]
+# ─────────
+#  Stage 2 
+# ─────────
+FROM node:24-alpine AS runner
+LABEL org.opencontainers.image.authors="Francisco José Rodríguez Afonso" \
+      org.opencontainers.image.documentation="https://fjrodafo.github.io/ShrikeBot/" \
+      org.opencontainers.image.source="https://github.com/FJrodafo/ShrikeBot" \
+      org.opencontainers.image.version="1.0.0-alpha" \
+      org.opencontainers.image.vendor="FJrodafo" \
+      org.opencontainers.image.licenses="CC0-1.0" \
+      org.opencontainers.image.title="ShrikeBot" \
+      org.opencontainers.image.description="A simple ShrikeBot clone made in JavaScript!"
+WORKDIR /app
+RUN apk add --no-cache curl \
+    && addgroup -S appgroup \
+    && adduser -S appuser -G appgroup
+COPY --from=deps /app/node_modules ./node_modules
+COPY src/ ./src/
+COPY dashboard/ ./dashboard/
+COPY package.json ./
+RUN chown -R appuser:appgroup /app
+USER appuser
+EXPOSE 3000
+CMD ["npm", "start"]
