@@ -1,16 +1,30 @@
 # Git
-/.git
-.gitattributes
-.gitignore
+/.git/
+/.gitattributes
+/.gitignore
 
 # GitHub
-/.github
+/.github/
 
 # VSCode
-/.vscode
+/.vscode/
 
-# Releases
-/releases
+# Alpha
+/alpha/
+
+# Documents
+/docs/
+
+# Dependencies
+/node_modules/
 
 # Secrets
 /src/config.json
+
+# Docker
+/.dockerignore
+/Dockerfile
+/docker-compose.yaml
+
+# Dev tooling
+/eslint.config.js
