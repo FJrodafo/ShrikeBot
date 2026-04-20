@@ -1,7 +1,7 @@
 {
   "name": "shrikebot",
   "version": "0.1.0",
-  "description": "A ShrikeBot clone made in JavaScript!",
+  "description": "A simple ShrikeBot clone made in JavaScript!",
   "keywords": [
     "discord",
     "app",
