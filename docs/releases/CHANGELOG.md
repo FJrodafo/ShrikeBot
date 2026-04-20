@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- This CHANGELOG.md to track all notable changes to this project going forward.
+- ...
 
 ### Changed
 
@@ -30,11 +30,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - ...
 
-## [0.1.0-alpha] - 2026-03-16
+## [1.0.0-alpha] - 2026/04/20
 
-### Added
+- A preview of what ShrikeBot will be in the future.
 
-- All files (Existing project).
-
-[unreleased]: https://github.com/FJrodafo/ShrikeBot/compare/0.1.0-alpha...HEAD
-[0.1.0-alpha]: https://github.com/FJrodafo/ShrikeBot/releases/tag/0.1.0-alpha
+[unreleased]: https://github.com/FJrodafo/ShrikeBot/compare/1.0.0-alpha...HEAD
+[1.0.0-alpha]: https://github.com/FJrodafo/ShrikeBot/releases/tag/1.0.0-alpha
