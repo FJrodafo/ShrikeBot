@@ -1,8 +1,27 @@
 services:
-  shrikebot:
-    build: .
-    ports:
-      - "3000:3000"
+  # ShrikeBot
+  shrike-bot:
+    #build:
+    #  context: .
+    #  dockerfile: Dockerfile
+    image: fjrodafo/shrike-bot:latest
+    container_name: shrike-bot
     environment:
       - NODE_ENV=production
+    ports:
+      - "127.0.0.1:3000:3000"
+    networks:
+      - shrike-bot_network
+    volumes:
+      - ./src/config.json:/app/src/config.json:ro
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 15s
     restart: unless-stopped
+# Networks
+networks:
+  shrike-bot_network:
+    name: shrike-bot_network
