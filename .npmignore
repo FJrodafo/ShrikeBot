@@ -9,6 +9,9 @@
 # VSCode
 /.vscode/
 
+# Alpha
+/alpha/
+
 # Documents
 /docs/
 
