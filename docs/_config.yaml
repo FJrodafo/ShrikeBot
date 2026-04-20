@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: ShrikeBot
+description: A simple ShrikeBot clone made in JavaScript!
+show_downloads: true
