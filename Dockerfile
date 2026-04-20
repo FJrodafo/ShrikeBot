@@ -24,7 +24,7 @@ RUN apk add --no-cache curl \
     && adduser -S appuser -G appgroup
 COPY --from=deps /app/node_modules ./node_modules
 COPY src/ ./src/
-COPY dashboard/ ./dashboard/
+#COPY dashboard/ ./dashboard/
 COPY package.json ./
 RUN chown -R appuser:appgroup /app
 USER appuser
