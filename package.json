@@ -1,5 +1,5 @@
 {
-  "name": "shrikebot",
+  "name": "@fjrodafo/shrike-bot",
   "version": "1.0.0-alpha",
   "description": "A simple ShrikeBot clone made in JavaScript!",
   "keywords": [
