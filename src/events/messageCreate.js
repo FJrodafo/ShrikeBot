@@ -11,7 +11,7 @@ module.exports = {
      */
     async execute(message) {
         const hoots = ['hoOOot!', 'HOooOT!', 'HOOoot!', 'hooOOT!'];
-        const hootVariants = ['hoot', 'hoot!'];
+        const hootVariants = ['hoot!', 'hoooot!'];
 
         if (message.author.bot) return;
 
