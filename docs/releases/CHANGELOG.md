@@ -24,15 +24,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Fixed
 
-- @ShrikeBot was reacting to emojis because it detected the word "hoot" within them. Updated `hootVariants` from `['hoot', 'hoot!']` to `['hoot!', 'hoooot!']` to prevent unintended matches.
+- ...
 
 ### Security
 
 - ...
 
+## [1.0.1-alpha] - 2026/04/21
+
+### Fixed
+
+- @ShrikeBot was reacting to emojis because it detected the word "hoot" within them. Updated `hootVariants` from `['hoot', 'hoot!']` to `['hoot!', 'hoooot!']` to prevent unintended matches.
+
 ## [1.0.0-alpha] - 2026/04/20
 
 - A preview of what ShrikeBot will be in the future.
 
-[unreleased]: https://github.com/FJrodafo/ShrikeBot/compare/1.0.0-alpha...HEAD
+[unreleased]: https://github.com/FJrodafo/ShrikeBot/compare/1.0.1-alpha...HEAD
+[1.0.1-alpha]: https://github.com/FJrodafo/ShrikeBot/releases/tag/1.0.1-alpha
 [1.0.0-alpha]: https://github.com/FJrodafo/ShrikeBot/releases/tag/1.0.0-alpha

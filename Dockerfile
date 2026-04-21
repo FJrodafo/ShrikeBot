@@ -13,7 +13,7 @@ FROM node:24-alpine AS runner
 LABEL org.opencontainers.image.authors="Francisco José Rodríguez Afonso" \
       org.opencontainers.image.documentation="https://fjrodafo.github.io/ShrikeBot/" \
       org.opencontainers.image.source="https://github.com/FJrodafo/ShrikeBot" \
-      org.opencontainers.image.version="1.0.0-alpha" \
+      org.opencontainers.image.version="1.0.1-alpha" \
       org.opencontainers.image.vendor="FJrodafo" \
       org.opencontainers.image.licenses="CC0-1.0" \
       org.opencontainers.image.title="ShrikeBot" \
