@@ -223,19 +223,19 @@ docker rm <container_id>
 
 ```shell
 docker build \
-  -t ghcr.io/fjrodafo/shrike-bot:1-alpha \
-  -t ghcr.io/fjrodafo/shrike-bot:1.0-alpha \
-  -t ghcr.io/fjrodafo/shrike-bot:1.0.1-alpha \
+  -t ghcr.io/fjrodafo/shrike-bot:1 \
+  -t ghcr.io/fjrodafo/shrike-bot:1.0 \
+  -t ghcr.io/fjrodafo/shrike-bot:1.0.0 \
   -t ghcr.io/fjrodafo/shrike-bot:latest \
-  -t fjrodafo/shrike-bot:1.0.1-alpha \
+  -t fjrodafo/shrike-bot:1.0.0 \
   -t fjrodafo/shrike-bot:latest \
   .
 
-docker push ghcr.io/fjrodafo/shrike-bot:1-alpha
-docker push ghcr.io/fjrodafo/shrike-bot:1.0-alpha
-docker push ghcr.io/fjrodafo/shrike-bot:1.0.1-alpha
+docker push ghcr.io/fjrodafo/shrike-bot:1
+docker push ghcr.io/fjrodafo/shrike-bot:1.0
+docker push ghcr.io/fjrodafo/shrike-bot:1.0.0
 docker push ghcr.io/fjrodafo/shrike-bot:latest
-docker push fjrodafo/shrike-bot:1.0.1-alpha
+docker push fjrodafo/shrike-bot:1.0.0
 docker push fjrodafo/shrike-bot:latest
 ```
 
