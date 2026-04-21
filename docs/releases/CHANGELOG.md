@@ -24,7 +24,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Fixed
 
-- @ShrikeBot was reacting to emojis because it detected the word "hoot" within them. Updated hootVariants from ['hoot', 'hoot!'] to ['hoot!', 'hoooot!'] to prevent unintended matches.
+- @ShrikeBot was reacting to emojis because it detected the word "hoot" within them. Updated `hootVariants` from `['hoot', 'hoot!']` to `['hoot!', 'hoooot!']` to prevent unintended matches.
 
 ### Security
 
