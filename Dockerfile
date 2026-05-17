@@ -18,15 +18,14 @@ LABEL org.opencontainers.image.authors="Francisco José Rodríguez Afonso" \
       org.opencontainers.image.licenses="CC0-1.0" \
       org.opencontainers.image.title="ShrikeBot" \
       org.opencontainers.image.description="A simple ShrikeBot clone made in JavaScript!"
-WORKDIR /app
 RUN apk add --no-cache curl \
-    && addgroup -S appgroup \
-    && adduser -S appuser -G appgroup
+    && addgroup --system --gid 1001 appgroup \
+    && adduser --system --uid 1001 --ingroup appgroup appuser
+WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY src/ ./src/
-#COPY dashboard/ ./dashboard/
+COPY dashboard/ ./dashboard/
 COPY package.json ./
-RUN chown -R appuser:appgroup /app
-USER appuser
 EXPOSE 3000
+USER appuser
 CMD ["npm", "start"]
