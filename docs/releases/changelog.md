@@ -40,6 +40,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - A preview of what ShrikeBot will be in the future.
 
-[unreleased]: https://github.com/FJrodafo/ShrikeBot/compare/1.0.1-alpha...HEAD
+[Unreleased]: https://github.com/FJrodafo/ShrikeBot/compare/1.0.1-alpha...HEAD
 [1.0.1-alpha]: https://github.com/FJrodafo/ShrikeBot/releases/tag/1.0.1-alpha
 [1.0.0-alpha]: https://github.com/FJrodafo/ShrikeBot/releases/tag/1.0.0-alpha
