@@ -14,9 +14,9 @@ Use this file to organize, prioritize, and track your progress.
 
 - [x] Admin
     - [x] [Ping](./../src/commands/admin/ping.js)
-- [ ] Hoot
+- [x] Hoot
     - [x] [2cute](./../src/commands/hoot/2cute.js)
-    - [ ] [Euan](./../src/commands/hoot/euan.js)
+    - [x] [Euan](./../src/commands/hoot/euan.js)
 - [ ] Info
     - [ ] [Amps](./../src/commands/info/amps.js)
     - [ ] [Armor](./../src/commands/info/armor.js)
