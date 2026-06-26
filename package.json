@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@fjrodafo/port-finder": "^2.0.9",
-    "discord.js": "^14.26.2",
+    "discord.js": "^14.26.4",
     "express": "^5.2.1"
   },
   "devDependencies": {
