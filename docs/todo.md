@@ -48,7 +48,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [Links](./../src/commands/links/links.js)
     - [ ] [Meta Builds](./../src/commands/links/meta-builds.js)
     - [x] [Patch Notes](./../src/commands/links/patch-notes.js)
-    - [ ] [Reddit](./../src/commands/links/reddit.js)
+    - [x] [Reddit](./../src/commands/links/reddit.js)
     - [ ] [Roadmap](./../src/commands/links/roadmap.js)
     - [ ] [Status](./../src/commands/links/status.js)
     - [x] [Trials](./../src/commands/links/trials.js)
