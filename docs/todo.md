@@ -42,7 +42,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [Drop Rates](./../src/commands/links/drop-rates.js)
     - [ ] [Fashion](./../src/commands/links/fashion.js)
     - [ ] [Guilds](./../src/commands/links/guilds.js)
-    - [ ] [Hunt Pass](./../src/commands/links/hunt-pass.js)
+    - [x] [Hunt Pass](./../src/commands/links/hunt-pass.js)
     - [ ] [Lantern Cores](./../src/commands/links/lantern-cores.js)
     - [x] [Leaderboards](./../src/commands/links/leaderboards.js)
     - [ ] [Links](./../src/commands/links/links.js)
