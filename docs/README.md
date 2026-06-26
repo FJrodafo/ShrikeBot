@@ -35,6 +35,12 @@ A simple ShrikeBot clone made in JavaScript!
 
 This project has been developed on a [Linux](https://github.com/torvalds/linux) system. To learn more about the system, visit the [Dotfiles](https://github.com/FJrodafo/Dotfiles) repository.
 
+[To-do list](https://fjrodafo.github.io/ShrikeBot/todo)
+·
+[Changelog](https://fjrodafo.github.io/ShrikeBot/releases/changelog)
+·
+[Version](https://fjrodafo.github.io/ShrikeBot/releases/version)
+
 ## Project structure
 
 ```
