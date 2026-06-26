@@ -25,7 +25,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [Leveling](./../src/commands/info/leveling.js)
     - [ ] [Slayer Path](./../src/commands/info/slayer-path.js)
     - [ ] [Sparks](./../src/commands/info/sparks.js)
-    - [ ] [Strikers](./../src/commands/info/strikers.js)
+    - [x] [Strikers](./../src/commands/info/strikers.js)
     - [ ] [Surge](./../src/commands/info/surge.js)
     - [ ] [Talents](./../src/commands/info/talents.js)
     - [ ] [Timeout](./../src/commands/info/timeout.js)
