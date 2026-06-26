@@ -52,7 +52,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [Roadmap](./../src/commands/links/roadmap.js)
     - [ ] [Status](./../src/commands/links/status.js)
     - [x] [Trials](./../src/commands/links/trials.js)
-    - [ ] [Wiki](./../src/commands/links/wiki.js)
+    - [x] [Wiki](./../src/commands/links/wiki.js)
 - [ ] Pins
     - [x] [Announcements](./../src/commands/pins/announcements.js)
     - [ ] [Meta](./../src/commands/pins/meta.js)
