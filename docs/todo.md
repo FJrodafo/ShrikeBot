@@ -54,7 +54,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Trials](./../src/commands/links/trials.js)
     - [ ] [Wiki](./../src/commands/links/wiki.js)
 - [ ] Pins
-    - [ ] [Announcements](./../src/commands/pins/announcements.js)
+    - [x] [Announcements](./../src/commands/pins/announcements.js)
     - [ ] [Meta](./../src/commands/pins/meta.js)
     - [ ] [Pins](./../src/commands/pins/pins.js)
 - [ ] Tierlists
