@@ -21,18 +21,14 @@ module.exports = {
         ),
     async execute(interaction) {
         const subcommand = interaction.options.getSubcommand();
-
-        // Subcommand Handler
-        if (subcommand === 'pc') {
-            await handlePc(interaction);
-        }
-        else if (subcommand === 'mobile') {
-            await handleMobile(interaction);
-        }
-        else if (subcommand === 'iphone') {
-            await handleIphone(interaction);
-        }
+        await subcommandHandlers[subcommand]?.(interaction);
     },
+};
+
+const subcommandHandlers = {
+    pc: handlePc,
+    mobile: handleMobile,
+    iphone: handleIphone,
 };
 
 async function handlePc(interaction) {
