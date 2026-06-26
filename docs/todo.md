@@ -33,7 +33,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [UwU](./../src/commands/info/uwu.js)
     - [ ] [Weapons](./../src/commands/info/weapons.js)
 - [ ] Issues
-    - [ ] [Support](./../src/commands/issues/support.js)
+    - [x] [Support](./../src/commands/issues/support.js)
 - [ ] Links
     - [x] [Builder](./../src/commands/links/builder.js)
     - [ ] [Combiner](./../src/commands/links/combiner.js)
