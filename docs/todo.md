@@ -8,7 +8,7 @@ Use this file to organize, prioritize, and track your progress.
 
 ## Host
 
-- [ ] Find a reliable hosting system to host the bot 24/7.
+- [x] Find a reliable hosting system to host the bot 24/7.
 
 ## Commands
 
