@@ -36,7 +36,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Support](./../src/commands/issues/support.js)
 - [ ] Links
     - [x] [Builder](./../src/commands/links/builder.js)
-    - [ ] [Combiner](./../src/commands/links/combiner.js)
+    - [x] [Combiner](./../src/commands/links/combiner.js)
     - [ ] [Countdown](./../src/commands/links/countdown.js)
     - [ ] [Discord](./../src/commands/links/discord.js)
     - [ ] [Drop Rates](./../src/commands/links/drop-rates.js)
