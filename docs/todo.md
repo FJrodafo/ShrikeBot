@@ -51,7 +51,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [Reddit](./../src/commands/links/reddit.js)
     - [ ] [Roadmap](./../src/commands/links/roadmap.js)
     - [ ] [Status](./../src/commands/links/status.js)
-    - [ ] [Trials](./../src/commands/links/trials.js)
+    - [x] [Trials](./../src/commands/links/trials.js)
     - [ ] [Wiki](./../src/commands/links/wiki.js)
 - [ ] Pins
     - [ ] [Announcements](./../src/commands/pins/announcements.js)
