@@ -56,7 +56,7 @@ Use this file to organize, prioritize, and track your progress.
 - [ ] Pins
     - [x] [Announcements](./../src/commands/pins/announcements.js)
     - [ ] [Meta](./../src/commands/pins/meta.js)
-    - [ ] [Pins](./../src/commands/pins/pins.js)
+    - [x] [Pins](./../src/commands/pins/pins.js)
 - [ ] Tierlists
     - [ ] [Meta Tierlist](./../src/commands/tierlists/meta-tierlist.js)
 - [ ] Unstuck
