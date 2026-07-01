@@ -1,7 +1,7 @@
 const { Events } = require('discord.js');
 
 const cooldowns = new Map();
-const COOLDOWN_MS = 60_000; // 1 minute
+const COOLDOWN_MS = 60_000;
 
 function isOnCooldown(key) {
     if (!cooldowns.has(key)) return false;
@@ -41,9 +41,9 @@ module.exports = {
         }
 
         // When is the update?
-        //if (!isOnCooldown('when-is-the-update') && /\bwhen is the update\b/i.test(message.content)) {
-        //    await message.channel.send('**Welcome back to Dauntless!** Currently, the _Awakening_ update is projected to launch **later this year**, with an official date yet to be announced. Please check <#1333535056895016970> for news about _Awakening_\'s release, and keep track of various update-related leaks in our <#1333535524513648700>.');
-        //    setCooldown('when-is-the-update');
-        //}
+        // if (!isOnCooldown('when-is-the-update') && /\bwhen is the update\b/i.test(message.content)) {
+        //     await message.channel.send('**Welcome back to Dauntless!** Currently, the _Awakening_ update is projected to launch **later this year**, with an official date yet to be announced. Please check <#1333535056895016970> for news about _Awakening_\'s release, and keep track of various update-related leaks in our <#1333535524513648700>.');
+        //     setCooldown('when-is-the-update');
+        // }
     },
 };

@@ -12,7 +12,7 @@ module.exports = {
         // interaction.editReply(`Roundtrip latency: **${sent.createdTimestamp - interaction.createdTimestamp}**ms`);
         await interaction.reply({
             content: 'pong',
-            ephemeral: true
+            ephemeral: true,
         });
     },
 };

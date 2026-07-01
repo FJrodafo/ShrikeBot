@@ -16,7 +16,7 @@ module.exports = {
 
         await interaction.reply({
             content: `[${userName}](${userAvatar})`,
-            ephemeral: true
+            ephemeral: true,
         });
     },
 };
