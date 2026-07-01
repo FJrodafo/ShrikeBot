@@ -10,6 +10,9 @@ module.exports = {
     async execute(interaction) {
         // const sent = await interaction.reply({ content: 'Pinging...', fetchReply: true });
         // interaction.editReply(`Roundtrip latency: **${sent.createdTimestamp - interaction.createdTimestamp}**ms`);
-        await interaction.reply({ content: 'pong', ephemeral: true });
+        await interaction.reply({
+            content: 'pong',
+            ephemeral: true
+        });
     },
 };
