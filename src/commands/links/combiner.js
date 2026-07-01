@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Shrike hoots you a link to the combiner app!\nhttps://www.dauntless-builder.com/b/finder',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

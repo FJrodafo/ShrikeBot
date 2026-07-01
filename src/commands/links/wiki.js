@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Shrike hoots you a link: https://dauntless.fandom.com/wiki/Dauntless_Wiki',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

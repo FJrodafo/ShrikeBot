@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Here\'s how to Hoot your striker quest: https://youtu.be/sQ3vDpgt0e0',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Here\'s the current *Hoot* Pass! https://playdauntless.com/hunt-pass/',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

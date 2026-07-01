@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Shrike hoots you a link: https://www.reddit.com/r/dauntless/',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

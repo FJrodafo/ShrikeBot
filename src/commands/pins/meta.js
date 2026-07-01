@@ -1,0 +1,16 @@
+const { SlashCommandBuilder } = require('discord.js');
+
+module.exports = {
+    category: 'pins',
+    cooldown: 60,
+    data: new SlashCommandBuilder()
+        .setName('meta')
+        .setDescription('Working in progress... hooOOT!')
+        .setDMPermission(false),
+    async execute(interaction) {
+        await interaction.reply({
+            content: 'Working in progress... hooOOT!',
+            ephemeral: true,
+        });
+    },
+};

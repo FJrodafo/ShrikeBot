@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Hoot\'s the current trials: https://playdauntless.com/trials/',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

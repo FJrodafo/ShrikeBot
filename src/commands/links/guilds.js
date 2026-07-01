@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Hoot! Check out this channel if you are looking for a guild: <#1333536228892606474>\nYou may also want to check Reddit for guilds, hoot\'s a link: https://tinyurl.com/dntlsguildrec',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

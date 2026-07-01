@@ -9,8 +9,8 @@ module.exports = {
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'https://imgur.com/a/FYWm5 2 Cute No Kill',
-            ephemeral: true,
+            content: 'https://imgur.com/a/FYWm5 2 Cute No Kill!',
+            ephemeral: false,
         });
     },
 };

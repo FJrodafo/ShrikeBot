@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Shrike recommends you check out <#1333535056895016970>\nA good shrike checks it frequently! Hoot!',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

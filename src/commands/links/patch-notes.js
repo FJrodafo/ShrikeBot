@@ -10,7 +10,7 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply({
             content: 'Shrike hoots proudly - do you notice anything different?\nPatch notes: https://playdauntless.com/patch-notes/',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };

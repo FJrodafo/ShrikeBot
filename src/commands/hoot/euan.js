@@ -5,7 +5,7 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('euan')
-        .setDescription('Get some advice from the devs')
+        .setDescription('Get some advice from the devs.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({

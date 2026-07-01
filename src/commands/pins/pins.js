@@ -34,20 +34,20 @@ const subcommandHandlers = {
 async function handlePc(interaction) {
     await interaction.reply({
         content: 'Please hoot the pins at the top right corner! https://imgur.com/a/0xiF2Nj',
-        ephemeral: true,
+        ephemeral: false,
     });
 }
 
 async function handleMobile(interaction) {
     await interaction.reply({
         content: 'Please hoot to the left to see the pins! https://cdn.discordapp.com/attachments/191561946892337153/723689034152411296/hoot_pins.png',
-        ephemeral: true,
+        ephemeral: false,
     });
 }
 
 async function handleIphone(interaction) {
     await interaction.reply({
         content: 'Please hoot to the left to see the pins! Also, buy a normal phone. https://cdn.discordapp.com/attachments/191561946892337153/723689034152411296/hoot_pins.png',
-        ephemeral: true,
+        ephemeral: false,
     });
 }

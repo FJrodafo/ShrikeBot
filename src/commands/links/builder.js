@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('builder')
-        .setDescription('Posts a link to Dauntless Builder')
+        .setDescription('Posts a link to Dauntless Builder.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
             content: 'Shrike hoots you a link: https://dauntless-builder.com/',
-            ephemeral: true,
+            ephemeral: false,
         });
     },
 };
