@@ -1,7 +1,5 @@
 # ShrikeBot
 
-A ShrikeBot clone made in JavaScript!
-
 [![GitHub Pages](https://img.shields.io/badge/%20-FFFFFF?style=social&logo=githubpages&logoColor=black&logoSize=auto)](https://fjrodafo.github.io/ShrikeBot/)
 [![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/ShrikeBot?style=social&logo=github&logoColor=black&label=Stars&labelColor=FFFFFF&color=FFFFFF)](https://github.com/FJrodafo/ShrikeBot/stargazers)
 
