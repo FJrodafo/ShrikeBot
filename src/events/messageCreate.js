@@ -1,7 +1,7 @@
 const { Events } = require('discord.js');
 
 const cooldowns = new Map();
-const COOLDOWN_MS = 60_000;
+const COOLDOWN_MS = 240_000;
 
 function isOnCooldown(key) {
     if (!cooldowns.has(key)) return false;
