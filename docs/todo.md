@@ -60,8 +60,8 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Pins](./../src/commands/pins/pins.js)
 - [ ] Tierlists
     - [ ] [Meta Tierlist](./../src/commands/tierlists/meta-tierlist.js)
-- [ ] Unstuck
-    - [ ] [Unstuck](./../src/commands/unstuck/unstuck.js)
+- [x] Unstuck
+    - [x] [Unstuck](./../src/commands/unstuck/unstuck.js)
 
 ## Events
 
