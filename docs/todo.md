@@ -5,9 +5,6 @@ Use this file to organize, prioritize, and track your progress.
 ## Tasks
 
 - [x] Create a Docker image/container and push it to Docker Hub and GitHub Packages.
-
-## Host
-
 - [x] Find a reliable hosting system to host the bot 24/7.
 
 ## Commands
