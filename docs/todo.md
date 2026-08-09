@@ -37,7 +37,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [Countdown](./../src/commands/links/countdown.js)
     - [ ] [Discord](./../src/commands/links/discord.js)
     - [ ] [Drop Rates](./../src/commands/links/drop-rates.js)
-    - [ ] [Fashion](./../src/commands/links/fashion.js)
+    - [x] [Fashion](./../src/commands/links/fashion.js)
     - [x] [GitHub](./../src/commands/links/github.js)
     - [x] [Guilds](./../src/commands/links/guilds.js)
     - [x] [Hunt Pass](./../src/commands/links/hunt-pass.js)
