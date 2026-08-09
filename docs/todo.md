@@ -44,7 +44,7 @@ Use this file to organize, prioritize, and track your progress.
     - [ ] [Lantern Cores](./../src/commands/links/lantern-cores.js)
     - [x] [Leaderboards](./../src/commands/links/leaderboards.js)
     - [ ] [Links](./../src/commands/links/links.js)
-    - [ ] [Meta Builds](./../src/commands/links/meta-builds.js)
+    - [x] [Meta Builds](./../src/commands/links/meta-builds.js)
     - [x] [Patch Notes](./../src/commands/links/patch-notes.js)
     - [x] [Reddit](./../src/commands/links/reddit.js)
     - [x] [Roadmap](./../src/commands/links/roadmap.js)
