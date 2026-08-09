@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('roadmap')
-        .setDescription('Working in progress... hooOOT!')
+        .setDescription('Links to the roadmap.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Working in progress... hooOOT!',
-            ephemeral: true,
+            content: 'Shrike points his wings forward to hoot you the way to the roadmap: https://playdauntless.com/roadmap/',
+            ephemeral: false,
         });
     },
 };
