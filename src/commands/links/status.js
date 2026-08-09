@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('status')
-        .setDescription('Working in progress... hooOOT!')
+        .setDescription('Links to the Dauntless server status.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Working in progress... hooOOT!',
-            ephemeral: true,
+            content: 'Check out the Dauntless Server Status site here;\nhttps://status.playdauntless.com/',
+            ephemeral: false,
         });
     },
 };
