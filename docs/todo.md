@@ -34,7 +34,7 @@ Use this file to organize, prioritize, and track your progress.
 - [ ] Links
     - [x] [Builder](./../src/commands/links/builder.js)
     - [x] [Combiner](./../src/commands/links/combiner.js)
-    - [ ] [Countdown](./../src/commands/links/countdown.js)
+    - [x] [Countdown](./../src/commands/links/countdown.js)
     - [x] [Discord](./../src/commands/links/discord.js)
     - [ ] [Drop Rates](./../src/commands/links/drop-rates.js)
     - [x] [Fashion](./../src/commands/links/fashion.js)
