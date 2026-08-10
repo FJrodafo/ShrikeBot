@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('discord')
-        .setDescription('Working in progress... hooOOT!')
+        .setDescription('Link to the Unofficial Dauntless Community Server.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Working in progress... hooOOT!',
-            ephemeral: true,
+            content: 'You can hoot the Unofficial Dauntless Community Server here! discord.gg/DXP43ZEwac',
+            ephemeral: false,
         });
     },
 };
