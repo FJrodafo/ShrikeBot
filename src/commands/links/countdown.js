@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('countdown')
-        .setDescription('Working in progress... hooOOT!')
+        .setDescription('Shows timers until all the announced patches!')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Working in progress... hooOOT!',
-            ephemeral: true,
+            content: '*Shrike adjusts its fake glasses and hands you a poorly scribbled patch itinerary for this season. Links lead to countdown timers for the patches.*\nPatch 1.8.4 -- https://bit.ly/3v5iZgK',
+            ephemeral: false,
         });
     },
 };
