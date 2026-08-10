@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('armor')
-        .setDescription('Working in progress... hooOOT!')
+        .setDescription('Shows a list of commonly used armor sets.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Working in progress... hooOOT!',
-            ephemeral: true,
+            content: 'This is the list of most often used Armor pieces in builds, they should be priority to powersurge.\nIf a piece is used for specific types of builds, it is noted in parentheses.\n\n**Helmets**\nTimeweave, Shrowd, Kharabak, Embermane\n\n**Chests**\nTimeweave, Thrax, Quillshot *(Wounding)*, Skraev *(Adrenaline)*\n\n**Gloves**\nMalkarion, Timeweave, Torgadoro, Embermane *(Adrenaline)*\n\n**Boots**\nThrax, Chronovore, Sahvyt, Timeweave *(Catalyst)*, Skraev *(Adrenaline)*, Koshai',
+            ephemeral: false,
         });
     },
 };
