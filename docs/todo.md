@@ -28,7 +28,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Timeout](./../src/commands/info/timeout.js)
     - [x] [Transmog](./../src/commands/info/transmog.js)
     - [ ] [UwU](./../src/commands/info/uwu.js)
-    - [ ] [Weapons](./../src/commands/info/weapons.js)
+    - [x] [Weapons](./../src/commands/info/weapons.js)
 - [ ] Issues
     - [x] [Support](./../src/commands/issues/support.js)
 - [ ] Links
