@@ -16,7 +16,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Euan](./../src/commands/hoot/euan.js)
 - [ ] Info
     - [ ] [Amps](./../src/commands/info/amps.js)
-    - [ ] [Armor](./../src/commands/info/armor.js)
+    - [x] [Armor](./../src/commands/info/armor.js)
     - [ ] [Dodge](./../src/commands/info/dodge.js)
     - [ ] [Hunting Grounds](./../src/commands/info/hunting-grounds.js)
     - [ ] [Leveling](./../src/commands/info/leveling.js)
