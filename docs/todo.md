@@ -29,7 +29,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Transmog](./../src/commands/info/transmog.js)
     - [ ] [UwU](./../src/commands/info/uwu.js)
     - [x] [Weapons](./../src/commands/info/weapons.js)
-- [ ] Issues
+- [x] Issues
     - [x] [Support](./../src/commands/issues/support.js)
 - [ ] Links
     - [x] [Builder](./../src/commands/links/builder.js)
