@@ -19,7 +19,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Armor](./../src/commands/info/armor.js)
     - [x] [Dodge](./../src/commands/info/dodge.js)
     - [x] [Hunting Grounds](./../src/commands/info/hunting-grounds.js)
-    - [ ] [Leveling](./../src/commands/info/leveling.js)
+    - [x] [Leveling](./../src/commands/info/leveling.js)
     - [x] [Slayer Path](./../src/commands/info/slayer-path.js)
     - [ ] [Sparks](./../src/commands/info/sparks.js)
     - [x] [Strikers](./../src/commands/info/strikers.js)
