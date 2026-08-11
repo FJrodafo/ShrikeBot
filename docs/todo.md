@@ -24,7 +24,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Sparks](./../src/commands/info/sparks.js)
     - [x] [Strikers](./../src/commands/info/strikers.js)
     - [x] [Surge](./../src/commands/info/surge.js)
-    - [ ] [Talents](./../src/commands/info/talents.js)
+    - [x] [Talents](./../src/commands/info/talents.js)
     - [x] [Timeout](./../src/commands/info/timeout.js)
     - [x] [Transmog](./../src/commands/info/transmog.js)
     - [ ] [UwU](./../src/commands/info/uwu.js)
