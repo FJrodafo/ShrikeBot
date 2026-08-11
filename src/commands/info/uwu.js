@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('uwu')
-        .setDescription('Shows what are Slayer Links about!')
+        .setDescription('Working in progress... hooOOT!')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Hoot\'s how to link with your friends!\nhttps://playdauntless.com/news/slayer-links/',
-            ephemeral: false,
+            content: 'Working in progress... hooOOT!',
+            ephemeral: true,
         });
     },
 };

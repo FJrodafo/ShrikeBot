@@ -14,7 +14,7 @@ Use this file to organize, prioritize, and track your progress.
 - [x] Hoot
     - [x] [2cute](./../src/commands/hoot/2cute.js)
     - [x] [Euan](./../src/commands/hoot/euan.js)
-- [x] Info
+- [ ] Info
     - [x] [Amps](./../src/commands/info/amps.js)
     - [x] [Armor](./../src/commands/info/armor.js)
     - [x] [Dodge](./../src/commands/info/dodge.js)
@@ -27,7 +27,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Talents](./../src/commands/info/talents.js)
     - [x] [Timeout](./../src/commands/info/timeout.js)
     - [x] [Transmog](./../src/commands/info/transmog.js)
-    - [x] [UwU](./../src/commands/info/uwu.js)
+    - [ ] [UwU](./../src/commands/info/uwu.js)
     - [x] [Weapons](./../src/commands/info/weapons.js)
 - [x] Issues
     - [x] [Support](./../src/commands/issues/support.js)
@@ -42,12 +42,12 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Guilds](./../src/commands/links/guilds.js)
     - [x] [Hunt Pass](./../src/commands/links/hunt-pass.js)
     - [x] [Leaderboards](./../src/commands/links/leaderboards.js)
-    - [ ] [Links](./../src/commands/links/links.js)
     - [x] [Meta Builds](./../src/commands/links/meta-builds.js)
     - [x] [Omnicells](./../src/commands/links/omnicells.js)
     - [x] [Patch Notes](./../src/commands/links/patch-notes.js)
     - [x] [Reddit](./../src/commands/links/reddit.js)
     - [x] [Roadmap](./../src/commands/links/roadmap.js)
+    - [x] [Slayer Links](./../src/commands/links/links.js)
     - [x] [Status](./../src/commands/links/status.js)
     - [x] [Trials](./../src/commands/links/trials.js)
     - [x] [Wiki](./../src/commands/links/wiki.js)
