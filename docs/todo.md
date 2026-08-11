@@ -62,11 +62,11 @@ Use this file to organize, prioritize, and track your progress.
 
 ## Events
 
-- [ ] EventCommands
-    - [ ] [Boreus](./../src/events/messageCreate.js)
-    - [ ] [Embermane](./../src/events/messageCreate.js)
-    - [ ] [Fly](./../src/events/messageCreate.js)
+- [x] EventCommands
+    - [x] [Boreus](./../src/events/messageCreate.js)
+    - [x] [Embermane](./../src/events/messageCreate.js)
+    - [x] [Fly](./../src/events/messageCreate.js)
     - [x] [Sleep](./../src/events/messageCreate.js)
-    - [ ] [Stormclaw](./../src/events/messageCreate.js)
-    - [ ] [Valomyr](./../src/events/messageCreate.js)
-    - [ ] [When is the update](./../src/events/messageCreate.js)
+    - [x] [Stormclaw](./../src/events/messageCreate.js)
+    - [x] [Valomyr](./../src/events/messageCreate.js)
+    - [x] [When is the update](./../src/events/messageCreate.js)
