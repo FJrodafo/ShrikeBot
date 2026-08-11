@@ -47,7 +47,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Patch Notes](./../src/commands/links/patch-notes.js)
     - [x] [Reddit](./../src/commands/links/reddit.js)
     - [x] [Roadmap](./../src/commands/links/roadmap.js)
-    - [x] [Slayer Links](./../src/commands/links/links.js)
+    - [x] [Slayer Links](./../src/commands/links/slayer-links.js)
     - [x] [Status](./../src/commands/links/status.js)
     - [x] [Trials](./../src/commands/links/trials.js)
     - [x] [Wiki](./../src/commands/links/wiki.js)
