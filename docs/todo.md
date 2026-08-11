@@ -14,7 +14,7 @@ Use this file to organize, prioritize, and track your progress.
 - [x] Hoot
     - [x] [2cute](./../src/commands/hoot/2cute.js)
     - [x] [Euan](./../src/commands/hoot/euan.js)
-- [ ] Info
+- [x] Info
     - [x] [Amps](./../src/commands/info/amps.js)
     - [x] [Armor](./../src/commands/info/armor.js)
     - [x] [Dodge](./../src/commands/info/dodge.js)
