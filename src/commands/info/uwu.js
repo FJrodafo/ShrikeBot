@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('uwu')
-        .setDescription('Working in progress... hooOOT!')
+        .setDescription('Uwu\'s you how to apply transmogs!')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Working in progress... hooOOT!',
-            ephemeral: true,
+            content: 'Howot\'s how to dress up! https://cdn.discordapp.com/attachments/638808466131255313/760479933180542996/transmog_trash.png',
+            ephemeral: false,
         });
     },
 };
