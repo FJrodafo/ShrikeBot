@@ -31,12 +31,12 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Weapons](./../src/commands/info/weapons.js)
 - [x] Issues
     - [x] [Support](./../src/commands/issues/support.js)
-- [ ] Links
+- [x] Links
     - [x] [Builder](./../src/commands/links/builder.js)
     - [x] [Combiner](./../src/commands/links/combiner.js)
     - [x] [Countdown](./../src/commands/links/countdown.js)
     - [x] [Discord](./../src/commands/links/discord.js)
-    - [ ] [Drop Rates](./../src/commands/links/drop-rates.js)
+    - [x] [Drop Rates](./../src/commands/links/drop-rates.js)
     - [x] [Fashion](./../src/commands/links/fashion.js)
     - [x] [GitHub](./../src/commands/links/github.js)
     - [x] [Guilds](./../src/commands/links/guilds.js)
