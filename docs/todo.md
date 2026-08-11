@@ -21,7 +21,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Hunting Grounds](./../src/commands/info/hunting-grounds.js)
     - [x] [Leveling](./../src/commands/info/leveling.js)
     - [x] [Slayer Path](./../src/commands/info/slayer-path.js)
-    - [ ] [Sparks](./../src/commands/info/sparks.js)
+    - [x] [Sparks](./../src/commands/info/sparks.js)
     - [x] [Strikers](./../src/commands/info/strikers.js)
     - [ ] [Surge](./../src/commands/info/surge.js)
     - [ ] [Talents](./../src/commands/info/talents.js)
