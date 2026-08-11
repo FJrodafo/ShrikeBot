@@ -14,7 +14,7 @@ Use this file to organize, prioritize, and track your progress.
 - [x] Hoot
     - [x] [2cute](./../src/commands/hoot/2cute.js)
     - [x] [Euan](./../src/commands/hoot/euan.js)
-- [ ] Info
+- [x] Info
     - [x] [Amps](./../src/commands/info/amps.js)
     - [x] [Armor](./../src/commands/info/armor.js)
     - [x] [Dodge](./../src/commands/info/dodge.js)
@@ -27,7 +27,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Talents](./../src/commands/info/talents.js)
     - [x] [Timeout](./../src/commands/info/timeout.js)
     - [x] [Transmog](./../src/commands/info/transmog.js)
-    - [ ] [UwU](./../src/commands/info/uwu.js)
+    - [x] [UwU](./../src/commands/info/uwu.js)
     - [x] [Weapons](./../src/commands/info/weapons.js)
 - [x] Issues
     - [x] [Support](./../src/commands/issues/support.js)
