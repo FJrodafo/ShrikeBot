@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('sparks')
-        .setDescription('Working in progress... hooOOT!')
+        .setDescription('Shows advice on quick earning of Aethersparks.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Working in progress... hooOOT!',
-            ephemeral: true,
+            content: 'To quickly gain Aethersparks, consider event ~~hooting~~ hopping!\n\nHere is a handy guide: https://bit.ly/3jD8vjr',
+            ephemeral: false,
         });
     },
 };
