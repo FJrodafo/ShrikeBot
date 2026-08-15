@@ -31,6 +31,8 @@
 
 A simple ShrikeBot clone made in JavaScript!
 
+After Dauntless's official game servers shut down on May 29, 2025, this project keeps the community alive by restoring the bot from its official Discord server.
+
 This project has been developed on a [Linux](https://github.com/torvalds/linux) system. To learn more about the system, visit the [Dotfiles](https://github.com/FJrodafo/Dotfiles) repository.
 
 [To-do list](https://fjrodafo.github.io/ShrikeBot/todo)
