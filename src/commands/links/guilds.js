@@ -9,7 +9,7 @@ module.exports = {
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Hoot! Check out this channel if you are looking for a guild: <#1333536228892606474>\nYou may also want to check Reddit for guilds, hoot\'s a link: https://tinyurl.com/dntlsguildrec',
+            content: 'Hoot! Check out <#1333536228892606474> if you are looking for a guild.\nYou may also want to check [Reddit](https://www.reddit.com/r/dauntless/search/?q=flair%3A%22Guild%20is%20Recruiting%22%20OR%20flair%3A%22LFG%20%26%20Guilds%22&sort=new) for guilds!',
             ephemeral: false,
         });
     },

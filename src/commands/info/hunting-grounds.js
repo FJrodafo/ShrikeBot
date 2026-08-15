@@ -1,4 +1,8 @@
-const { SlashCommandBuilder } = require('discord.js');
+const {
+    SlashCommandBuilder,
+    AttachmentBuilder,
+} = require('discord.js');
+const path = require('path');
 
 module.exports = {
     category: 'info',
@@ -8,8 +12,13 @@ module.exports = {
         .setDescription('Shows what elemental weapon is the best pick for each hunting ground island.')
         .setDMPermission(false),
     async execute(interaction) {
+        const imageFile = new AttachmentBuilder(
+            path.resolve(__dirname, './../../../assets/backup/hunting-grounds.png'),
+        );
+
         await interaction.reply({
-            content: 'Hoot\'s the best elemental weapon(s) for each island:\nhttps://i.imgur.com/i1rqs6t.png',
+            content: 'Hoot\'s the best elemental weapon(s) for each island:',
+            files: [imageFile],
             ephemeral: false,
         });
     },

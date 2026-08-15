@@ -1,4 +1,8 @@
-const { SlashCommandBuilder } = require('discord.js');
+const {
+    SlashCommandBuilder,
+    AttachmentBuilder,
+} = require('discord.js');
+const path = require('path');
 
 module.exports = {
     category: 'info',
@@ -8,8 +12,13 @@ module.exports = {
         .setDescription('Uwu\'s you how to apply transmogs!')
         .setDMPermission(false),
     async execute(interaction) {
+        const imageFile = new AttachmentBuilder(
+            path.resolve(__dirname, './../../../assets/backup/uwu.png'),
+        );
+
         await interaction.reply({
-            content: 'Howot\'s how to dress up! https://cdn.discordapp.com/attachments/638808466131255313/760479933180542996/transmog_trash.png',
+            content: 'Howot\'s how to dress up!',
+            files: [imageFile],
             ephemeral: false,
         });
     },

@@ -48,42 +48,42 @@ const subcommandHandlers = {
 
 async function handleBastion(interaction) {
     await interaction.reply({
-        content: 'Shrike hoots you a link: https://dauntless.fandom.com/wiki/Bastion',
+        content: 'Shrike hoots you a link: [Dauntless Wiki](https://dauntless.fandom.com/wiki/Bastion)',
         ephemeral: false,
     });
 }
 
 async function handleIceborne(interaction) {
     await interaction.reply({
-        content: 'Shrike hoots you a link: https://dauntless.fandom.com/wiki/Iceborne',
+        content: 'Shrike hoots you a link: [Dauntless Wiki](https://dauntless.fandom.com/wiki/Iceborne)',
         ephemeral: false,
     });
 }
 
 async function handleDiscipline(interaction) {
     await interaction.reply({
-        content: 'Shrike hoots you a link: https://dauntless.fandom.com/wiki/Discipline',
+        content: 'Shrike hoots you a link: [Dauntless Wiki](https://dauntless.fandom.com/wiki/Discipline)',
         ephemeral: false,
     });
 }
 
 async function handleTempest(interaction) {
     await interaction.reply({
-        content: 'Shrike hoots you a link: https://dauntless.fandom.com/wiki/Tempest',
+        content: 'Shrike hoots you a link: [Dauntless Wiki](https://dauntless.fandom.com/wiki/Tempest)',
         ephemeral: false,
     });
 }
 
 async function handleRevenant(interaction) {
     await interaction.reply({
-        content: 'Shrike hoots you a link: https://dauntless.fandom.com/wiki/Revenant',
+        content: 'Shrike hoots you a link: [Dauntless Wiki](https://dauntless.fandom.com/wiki/Revenant)',
         ephemeral: false,
     });
 }
 
 async function handleArtificer(interaction) {
     await interaction.reply({
-        content: 'Shrike hoots you a link: https://dauntless.fandom.com/wiki/Artificer',
+        content: 'Shrike hoots you a link: [Dauntless Wiki](https://dauntless.fandom.com/wiki/Artificer)',
         ephemeral: false,
     });
 }

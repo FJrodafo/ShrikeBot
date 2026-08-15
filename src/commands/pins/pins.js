@@ -1,4 +1,8 @@
-const { SlashCommandBuilder } = require('discord.js');
+const {
+    SlashCommandBuilder,
+    AttachmentBuilder,
+} = require('discord.js');
+const path = require('path');
 
 module.exports = {
     category: 'pins',
@@ -17,7 +21,7 @@ module.exports = {
         )
         .addSubcommand(subcommand => subcommand
             .setName('iphone')
-            .setDescription('Explains how pins work on iphones.'),
+            .setDescription('Explains how pins work on iphone.'),
         ),
     async execute(interaction) {
         const subcommand = interaction.options.getSubcommand();
@@ -32,22 +36,37 @@ const subcommandHandlers = {
 };
 
 async function handlePc(interaction) {
+    const imageFilePc = new AttachmentBuilder(
+        path.resolve(__dirname, './../../../assets/backup/pins/pc.png'),
+    );
+
     await interaction.reply({
-        content: 'Please hoot the pins at the top right corner! https://imgur.com/a/0xiF2Nj',
+        content: 'Please hoot the pins at the top right corner!',
+        files: [imageFilePc],
         ephemeral: false,
     });
 }
 
 async function handleMobile(interaction) {
+    const imageFileMobile = new AttachmentBuilder(
+        path.resolve(__dirname, './../../../assets/backup/pins/mobile.png'),
+    );
+
     await interaction.reply({
-        content: 'Please hoot to the left to see the pins! https://cdn.discordapp.com/attachments/191561946892337153/723689034152411296/hoot_pins.png',
+        content: 'Please hoot to the left to see the pins!',
+        files: [imageFileMobile],
         ephemeral: false,
     });
 }
 
 async function handleIphone(interaction) {
+    const imageFileIphone = new AttachmentBuilder(
+        path.resolve(__dirname, './../../../assets/backup/pins/iphone.png'),
+    );
+
     await interaction.reply({
-        content: 'Please hoot to the left to see the pins! Also, buy a normal phone. https://cdn.discordapp.com/attachments/191561946892337153/723689034152411296/hoot_pins.png',
+        content: 'Please hoot to the left to see the pins! Also, buy a normal phone.',
+        files: [imageFileIphone],
         ephemeral: false,
     });
 }

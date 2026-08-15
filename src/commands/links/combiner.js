@@ -5,11 +5,11 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('combiner')
-        .setDescription('Links to a build combiner website.')
+        .setDescription('Links to the combiner app.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Shrike hoots you a link to the combiner app!\nhttps://www.dauntless-builder.com/b/finder',
+            content: 'Shrike hoots you a link to the combiner app! [Dauntless Builder](https://www.dauntless-builder.com/b/finder)',
             ephemeral: false,
         });
     },

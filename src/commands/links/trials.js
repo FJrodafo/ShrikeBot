@@ -5,7 +5,7 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('trials')
-        .setDescription('Posts an image of the current trial (Ping Syraleaf if its not up to date!)')
+        .setDescription('Posts an image of the current trial.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({

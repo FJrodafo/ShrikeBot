@@ -9,7 +9,7 @@ module.exports = {
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Shrike hoots you a link: https://www.reddit.com/r/dauntless/',
+            content: 'Shrike hoots you a link: [Reddit](https://www.reddit.com/r/dauntless/) <:yahoot:1536714835117482164>',
             ephemeral: false,
         });
     },

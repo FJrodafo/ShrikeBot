@@ -9,7 +9,7 @@ module.exports = {
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: '<:hootrly:1333873657281511525> Hoot\'s a link to the Meta build spreadsheet, use it to see the top builds for the current patch! https://bit.ly/DauntlessMeta',
+            content: 'Hoot\'s a link to the Meta build spreadsheet, use it to see the top builds for the current patch! [Dauntless Meta](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit)',
             ephemeral: false,
         });
     },

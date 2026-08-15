@@ -9,7 +9,7 @@ module.exports = {
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'Shrike hoots you a link: https://github.com/FJrodafo/ShrikeBot',
+            content: 'Shrike hoots you a link: [GitHub](https://github.com/FJrodafo/ShrikeBot) <:yahoot:1536714835117482164>',
             ephemeral: false,
         });
     },

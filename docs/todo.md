@@ -11,22 +11,24 @@ Use this file to organize, prioritize, and track your progress.
 
 - [x] Admin
     - [x] [Ping](./../src/commands/admin/ping.js)
+- [x] Help
+    - [x] [Help](./../src/commands/help/help.js)
 - [x] Hoot
     - [x] [2cute](./../src/commands/hoot/2cute.js)
-    - [x] [Euan](./../src/commands/hoot/euan.js)
+    - [ ] [Euan](./../src/commands/hoot/euan.js)
 - [x] Info
     - [x] [Amps](./../src/commands/info/amps.js)
     - [x] [Armor](./../src/commands/info/armor.js)
-    - [x] [Dodge](./../src/commands/info/dodge.js)
+    - [ ] [Dodge](./../src/commands/info/dodge.js)
     - [x] [Hunting Grounds](./../src/commands/info/hunting-grounds.js)
     - [x] [Leveling](./../src/commands/info/leveling.js)
     - [x] [Slayer Path](./../src/commands/info/slayer-path.js)
     - [x] [Sparks](./../src/commands/info/sparks.js)
     - [x] [Strikers](./../src/commands/info/strikers.js)
     - [x] [Surge](./../src/commands/info/surge.js)
-    - [x] [Talents](./../src/commands/info/talents.js)
+    - [ ] [Talents](./../src/commands/info/talents.js)
     - [x] [Timeout](./../src/commands/info/timeout.js)
-    - [x] [Transmog](./../src/commands/info/transmog.js)
+    - [ ] [Transmog](./../src/commands/info/transmog.js)
     - [x] [UwU](./../src/commands/info/uwu.js)
     - [x] [Weapons](./../src/commands/info/weapons.js)
 - [x] Issues
@@ -55,6 +57,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Announcements](./../src/commands/pins/announcements.js)
     - [x] [Meta Instructions](./../src/commands/pins/meta-instructions.js)
     - [x] [Pins](./../src/commands/pins/pins.js)
+    - [x] [Reply](./../src/commands/pins/reply.js)
 - [x] Tierlists
     - [x] [Meta Tierlist](./../src/commands/tierlists/meta-tierlist.js)
 - [x] Unstuck

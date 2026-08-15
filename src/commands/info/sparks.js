@@ -9,7 +9,7 @@ module.exports = {
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
-            content: 'To quickly gain Aethersparks, consider event ~~hooting~~ hopping!\n\nHere is a handy guide: https://bit.ly/3jD8vjr',
+            content: 'To quickly gain Aethersparks, consider event ~~hooting~~ hopping!\n\nHere is a handy guide: [Reddit](https://www.reddit.com/r/dauntless/comments/l32y7s/if_you_need_aethersparks_try_verthopping/)',
             ephemeral: false,
         });
     },

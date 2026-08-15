@@ -6,11 +6,36 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('fashion')
         .setDescription('Shows images of all hunt pass armor sets on male and female models.')
-        .setDMPermission(false),
+        .setDMPermission(false)
+        .addSubcommand(subcommand => subcommand
+            .setName('v1')
+            .setDescription('Shows images of all hunt pass armor sets on male and female models.'),
+        )
+        .addSubcommand(subcommand => subcommand
+            .setName('v2')
+            .setDescription('Shows images of all hunt pass armor sets on male and female models.'),
+        ),
     async execute(interaction) {
-        await interaction.reply({
-            content: 'Hoot\'s a link to a useful image with all the hunt pass set visuals!\nhttps://cdn.discordapp.com/attachments/555857529876381716/767773444649385984/All_hunt_pass_updated_version.png\nCredit to KorrupiKid!',
-            ephemeral: false,
-        });
+        const subcommand = interaction.options.getSubcommand();
+        await subcommandHandlers[subcommand]?.(interaction);
     },
 };
+
+const subcommandHandlers = {
+    v1: handleV1,
+    v2: handleV2,
+};
+
+async function handleV1(interaction) {
+    await interaction.reply({
+        content: 'Hoot\'s a link to a useful image with all the hunt pass set visuals!\n\nCredit to KorrupiKid!',
+        ephemeral: true,
+    });
+}
+
+async function handleV2(interaction) {
+    await interaction.reply({
+        content: 'Hoot\'s a link to a useful image with all the hunt pass set visuals!\n\nCredit to KorrupiKid!',
+        ephemeral: true,
+    });
+}

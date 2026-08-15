@@ -5,7 +5,7 @@ module.exports = {
     cooldown: 60,
     data: new SlashCommandBuilder()
         .setName('slayer-links')
-        .setDescription('Shows what are Slayer Links about!')
+        .setDescription('Shows what are Slayer Links about.')
         .setDMPermission(false),
     async execute(interaction) {
         await interaction.reply({
