@@ -1,8 +1,4 @@
-const {
-    SlashCommandBuilder,
-    AttachmentBuilder,
-} = require('discord.js');
-const path = require('path');
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     category: 'pins',
@@ -36,37 +32,22 @@ const subcommandHandlers = {
 };
 
 async function handlePc(interaction) {
-    const imageFilePc = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/pins/pc.png'),
-    );
-
     await interaction.reply({
-        content: 'Please hoot the pins at the top right corner!',
-        files: [imageFilePc],
+        content: 'Please hoot the pins at the top right corner! https://media.discordapp.net/attachments/1539008812831211550/1539008847132237884/pc.png',
         ephemeral: false,
     });
 }
 
 async function handleMobile(interaction) {
-    const imageFileMobile = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/pins/mobile.png'),
-    );
-
     await interaction.reply({
-        content: 'Please hoot to the left to see the pins!',
-        files: [imageFileMobile],
+        content: 'Please hoot to the left to see the pins! https://media.discordapp.net/attachments/1539008812831211550/1539008872465965077/mobile.png',
         ephemeral: false,
     });
 }
 
 async function handleIphone(interaction) {
-    const imageFileIphone = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/pins/iphone.png'),
-    );
-
     await interaction.reply({
-        content: 'Please hoot to the left to see the pins! Also, buy a normal phone.',
-        files: [imageFileIphone],
+        content: 'Please hoot to the left to see the pins! https://media.discordapp.net/attachments/1539008812831211550/1539008898814713876/iphone.png Also, buy a normal phone...',
         ephemeral: false,
     });
 }

@@ -1,8 +1,4 @@
-const {
-    SlashCommandBuilder,
-    AttachmentBuilder,
-} = require('discord.js');
-const path = require('path');
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     category: 'info',
@@ -51,73 +47,43 @@ const subcommandHandlers = {
 };
 
 async function handleShock(interaction) {
-    const imageFileShock = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/amps/shock.png'),
-    );
-
     await interaction.reply({
-        content: 'Hoot\'s Shock Escalation Talents:',
-        files: [imageFileShock],
+        content: 'Hoot\'s Shock Escalation Talents: https://media.discordapp.net/attachments/1539006133312819320/1539006246957482085/shock.png',
         ephemeral: false,
     });
 }
 
 async function handleBlaze(interaction) {
-    const imageFileBlaze = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/amps/blaze.png'),
-    );
-
     await interaction.reply({
-        content: 'Hoot\'s Blaze Escalation Talents:',
-        files: [imageFileBlaze],
+        content: 'Hoot\'s Blaze Escalation Talents: https://media.discordapp.net/attachments/1539006133312819320/1539006178300792913/blaze.png',
         ephemeral: false,
     });
 }
 
 async function handleTerra(interaction) {
-    const imageFileTerra = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/amps/terra.png'),
-    );
-
     await interaction.reply({
-        content: 'Hoot\'s Terra Escalation Talents:',
-        files: [imageFileTerra],
+        content: 'Hoot\'s Terra Escalation Talents: https://media.discordapp.net/attachments/1539006133312819320/1539006263122464838/terra.png',
         ephemeral: false,
     });
 }
 
 async function handleUmbral(interaction) {
-    const imageFileUmbral = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/amps/umbral.png'),
-    );
-
     await interaction.reply({
-        content: 'Hoot\'s Umbral Escalation Talents:',
-        files: [imageFileUmbral],
+        content: 'Hoot\'s Umbral Escalation Talents: https://media.discordapp.net/attachments/1539006133312819320/1539006286480277536/umbral.png',
         ephemeral: false,
     });
 }
 
 async function handleFrost(interaction) {
-    const imageFileFrost = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/amps/frost.png'),
-    );
-
     await interaction.reply({
-        content: 'Hoot\'s Frost Escalation Talents:',
-        files: [imageFileFrost],
+        content: 'Hoot\'s Frost Escalation Talents: https://media.discordapp.net/attachments/1539006133312819320/1539006202669957230/frost.png',
         ephemeral: false,
     });
 }
 
 async function handleRadiant(interaction) {
-    const imageFileRadiant = new AttachmentBuilder(
-        path.resolve(__dirname, './../../../assets/backup/amps/radiant.png'),
-    );
-
     await interaction.reply({
-        content: 'Hoot\'s Radiant Escalation Talents:',
-        files: [imageFileRadiant],
+        content: 'Hoot\'s Radiant Escalation Talents: https://media.discordapp.net/attachments/1539006133312819320/1539006226573164635/radiant.png',
         ephemeral: false,
     });
 }

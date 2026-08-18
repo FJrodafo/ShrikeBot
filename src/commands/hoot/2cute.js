@@ -1,8 +1,4 @@
-const {
-    SlashCommandBuilder,
-    AttachmentBuilder,
-} = require('discord.js');
-const path = require('path');
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     category: 'hoot',
@@ -12,12 +8,8 @@ module.exports = {
         .setDescription('2 Cute No Kill!')
         .setDMPermission(false),
     async execute(interaction) {
-        const imageFile = new AttachmentBuilder(
-            path.resolve(__dirname, './../../../assets/backup/2cute.jpg'),
-        );
-
         await interaction.reply({
-            files: [imageFile],
+            content: 'https://media.discordapp.net/attachments/1539005819230756895/1539005863963131994/2cute.jpg',
             ephemeral: false,
         });
     },

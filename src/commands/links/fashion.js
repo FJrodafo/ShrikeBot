@@ -28,14 +28,14 @@ const subcommandHandlers = {
 
 async function handleV1(interaction) {
     await interaction.reply({
-        content: 'Hoot\'s a link to a useful image with all the hunt pass set visuals!\n\nCredit to KorrupiKid!',
-        ephemeral: true,
+        content: 'Hoot\'s a link to a useful image with all the hunt pass set visuals! https://media.discordapp.net/attachments/1539007565327892632/1539008352649089076/v1.png Credit to KorrupiKid!',
+        ephemeral: false,
     });
 }
 
 async function handleV2(interaction) {
     await interaction.reply({
-        content: 'Hoot\'s a link to a useful image with all the hunt pass set visuals!\n\nCredit to KorrupiKid!',
-        ephemeral: true,
+        content: 'Hoot\'s a link to a useful image with all the hunt pass set visuals! https://media.discordapp.net/attachments/1539007565327892632/1539008405564555416/v2.png Credit to KorrupiKid!',
+        ephemeral: false,
     });
 }

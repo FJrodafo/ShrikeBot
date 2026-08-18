@@ -1,8 +1,4 @@
-const {
-    SlashCommandBuilder,
-    AttachmentBuilder,
-} = require('discord.js');
-const path = require('path');
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     category: 'pins',
@@ -12,13 +8,8 @@ module.exports = {
         .setDescription('How to select good builds.')
         .setDMPermission(false),
     async execute(interaction) {
-        const imageFile = new AttachmentBuilder(
-            path.resolve(__dirname, './../../../assets/backup/meta-instructions.png'),
-        );
-
         await interaction.reply({
-            content: 'Hoot\'s how to select good builds;',
-            files: [imageFile],
+            content: 'Hoot\'s how to select good builds; https://media.discordapp.net/attachments/1539008659571605524/1539008691322495036/meta-instructions.png',
             ephemeral: false,
         });
     },

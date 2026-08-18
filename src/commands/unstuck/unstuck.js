@@ -1,8 +1,4 @@
-const {
-    SlashCommandBuilder,
-    AttachmentBuilder,
-} = require('discord.js');
-const path = require('path');
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     category: 'unstuck',
@@ -12,13 +8,8 @@ module.exports = {
         .setDescription('Instructs the user how to unstuck.')
         .setDMPermission(false),
     async execute(interaction) {
-        const imageFile = new AttachmentBuilder(
-            path.resolve(__dirname, './../../../assets/backup/unstuck.png'),
-        );
-
         await interaction.reply({
-            content: 'Shrike points at the screen to show how to hoot yourself back to spawn/unstuck.',
-            files: [imageFile],
+            content: 'Shrike points at the screen to show how to hoot yourself back to spawn/unstuck. https://media.discordapp.net/attachments/1539009038652678214/1539009074815963196/unstuck.png',
             ephemeral: false,
         });
     },
