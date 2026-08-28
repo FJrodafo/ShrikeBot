@@ -13,6 +13,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Ping](./../src/commands/admin/ping.js)
 - [x] Help
     - [x] [Help](./../src/commands/help/help.js)
+    - [x] [Reply](./../src/commands/pins/reply.js)
 - [x] Hoot
     - [x] [2cute](./../src/commands/hoot/2cute.js)
     - [ ] [Euan](./../src/commands/hoot/euan.js)
@@ -57,7 +58,6 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Announcements](./../src/commands/pins/announcements.js)
     - [x] [Meta Instructions](./../src/commands/pins/meta-instructions.js)
     - [x] [Pins](./../src/commands/pins/pins.js)
-    - [x] [Reply](./../src/commands/pins/reply.js)
 - [x] Tierlists
     - [x] [Meta Tierlist](./../src/commands/tierlists/meta-tierlist.js)
 - [x] Unstuck
