@@ -31,7 +31,7 @@
 
 A simple ShrikeBot clone made in JavaScript!
 
-After Dauntless's official game servers shut down on May 29, 2025, this project keeps the community alive by restoring the bot from its official Discord server.
+After Dauntless's official game servers shut down on May 31st 2025, this project keeps the community alive by restoring the bot from its official Discord server.
 
 This project has been developed on a [Linux](https://github.com/torvalds/linux) system. To learn more about the system, visit the [Dotfiles](https://github.com/FJrodafo/Dotfiles) repository.
 
@@ -45,6 +45,10 @@ This project has been developed on a [Linux](https://github.com/torvalds/linux) 
 
 ```
 /
+├── assets/
+|   ├── .../
+│   │   └── ...
+|   └── commands.pdf
 ├── dashboard/
 │   ├── public/
 │   │   ├── index.html
@@ -223,26 +227,6 @@ Stop and remove the Container:
 ```shell
 docker stop <container_id>
 docker rm <container_id>
-```
-
-### Build & Push (Ignore this subsection)
-
-```shell
-docker build \
-  -t ghcr.io/fjrodafo/shrike-bot:1 \
-  -t ghcr.io/fjrodafo/shrike-bot:1.0 \
-  -t ghcr.io/fjrodafo/shrike-bot:1.0.0 \
-  -t ghcr.io/fjrodafo/shrike-bot:latest \
-  -t fjrodafo/shrike-bot:1.0.0 \
-  -t fjrodafo/shrike-bot:latest \
-  .
-
-docker push ghcr.io/fjrodafo/shrike-bot:1
-docker push ghcr.io/fjrodafo/shrike-bot:1.0
-docker push ghcr.io/fjrodafo/shrike-bot:1.0.0
-docker push ghcr.io/fjrodafo/shrike-bot:latest
-docker push fjrodafo/shrike-bot:1.0.0
-docker push fjrodafo/shrike-bot:latest
 ```
 
 ## Available Scripts
