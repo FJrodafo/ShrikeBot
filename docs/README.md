@@ -275,4 +275,4 @@ If you want to see an example project built by following the [Discordjs guide](h
 
 Thanks to the [Discordjs](https://discord.js.org/) team for creating an amazing library and making Discord APP development easier!
 
-Thanks to [Syraleaf](https://github.com/Syraleaf) for sharing the [commands.pdf](https://github.com/FJrodafo/ShrikeBot/blob/main/App/src/assets/commands.pdf) file with a list of each and every command from the original ShrikeBot.
+Thanks to [Syraleaf](https://github.com/Syraleaf) for sharing the [commands.pdf](https://github.com/FJrodafo/ShrikeBot/blob/main/src/assets/commands.pdf) file with a list of each and every command from the original ShrikeBot.
