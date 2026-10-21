@@ -75,5 +75,11 @@ module.exports = {
             await message.channel.send('**Welcome back to Dauntless!** Currently, the _Awakening_ update is projected to launch **later this year**, with an official date yet to be announced. Please check <#1333535056895016970> for news about _Awakening_\'s release, and keep track of various update-related leaks in our <#1333535524513648700>.');
             setCooldown('when-is-the-update');
         }
+
+        // Well polished gem
+        if (!isOnCooldown('well-polished-gem') && message.content.toLowerCase().includes('well polished gem')) {
+            await message.channel.send({ stickers: ['1554757136964386917'] });
+            setCooldown('well-polished-gem');
+        }
     },
 };
