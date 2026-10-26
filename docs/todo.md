@@ -73,3 +73,4 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Stormclaw](https://github.com/FJrodafo/ShrikeBot/blob/main/src/events/messageCreate.js)
     - [x] [Valomyr](https://github.com/FJrodafo/ShrikeBot/blob/main/src/events/messageCreate.js)
     - [x] [When is the update](https://github.com/FJrodafo/ShrikeBot/blob/main/src/events/messageCreate.js)
+    - [x] [Well polished gem](https://github.com/FJrodafo/ShrikeBot/blob/main/src/events/messageCreate.js)
