@@ -4,7 +4,7 @@ module.exports = {
     category: 'links',
     cooldown: 60,
     data: new SlashCommandBuilder()
-        .setName('discord')
+        .setName('discovery')
         .setDescription('Posts a link to ShrikeBot\'s Discord discovery page!')
         .setDMPermission(false),
     async execute(interaction) {
