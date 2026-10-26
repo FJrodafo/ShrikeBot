@@ -39,6 +39,7 @@ Use this file to organize, prioritize, and track your progress.
     - [x] [Combiner](https://github.com/FJrodafo/ShrikeBot/blob/main/src/commands/links/combiner.js)
     - [x] [Countdown](https://github.com/FJrodafo/ShrikeBot/blob/main/src/commands/links/countdown.js)
     - [x] [Discord](https://github.com/FJrodafo/ShrikeBot/blob/main/src/commands/links/discord.js)
+    - [x] [Discovery](https://github.com/FJrodafo/ShrikeBot/blob/main/src/commands/links/discovery.js)
     - [x] [Drop Rates](https://github.com/FJrodafo/ShrikeBot/blob/main/src/commands/links/drop-rates.js)
     - [x] [Fashion](https://github.com/FJrodafo/ShrikeBot/blob/main/src/commands/links/fashion.js)
     - [x] [GitHub](https://github.com/FJrodafo/ShrikeBot/blob/main/src/commands/links/github.js)
