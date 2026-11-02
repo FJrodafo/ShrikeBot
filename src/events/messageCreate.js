@@ -47,25 +47,25 @@ module.exports = {
         }
 
         //  What Shrike thinks of Boreus?
-        if (!isOnCooldown('boreus') && message.content.toLowerCase().includes('what shrike thinks of boreus?')) {
+        if (!isOnCooldown('boreus') && message.content.toLowerCase().includes('what shrike thinks of boreus')) {
             await message.channel.send('Something behind you makes a weird noise and when you turn back to face the behemoth you realize it\'s covered in ice. All of a sudden you feel like playing another game...');
             setCooldown('boreus');
         }
 
         //  What Shrike thinks of Embermane?
-        if (!isOnCooldown('embermane') && message.content.toLowerCase().includes('what shrike thinks of embermane?')) {
+        if (!isOnCooldown('embermane') && message.content.toLowerCase().includes('what shrike thinks of embermane')) {
             await message.channel.send('You\'re collecting some wrathwort when all of a sudden you hear a sad puppy sound from the other side of the rocks. The next thing you see is a popup notifying you that the hunt has been completed. You\'re left wondering if it ever even got to do an attack past its initial charge...');
             setCooldown('embermane');
         }
 
         //  What Shrike thinks of Stormclaw?
-        if (!isOnCooldown('stormclaw') && message.content.toLowerCase().includes('what shrike thinks of stormclaw?')) {
+        if (!isOnCooldown('stormclaw') && message.content.toLowerCase().includes('what shrike thinks of stormclaw')) {
             await message.channel.send('You look in front of you only to see Stormclaw charging at you! You ready your weapon and time your swing correctly! Stormclaw decides to charge-cancel and you end up looking like a fool swinging your weapon for the first time!');
             setCooldown('stormclaw');
         }
 
         //  What Shrike thinks of Valomyr?
-        if (!isOnCooldown('valomyr') && message.content.toLowerCase().includes('what shrike thinks of valomyr?')) {
+        if (!isOnCooldown('valomyr') && message.content.toLowerCase().includes('what shrike thinks of valomyr')) {
             await message.channel.send('While patrolling the shattered islands for your ever growing collection of orbs you realize you didn\'t check the behemoth you\'re fighting. What could it possibly be you wonder as you turn around the corner on Iron Falls. Turns out the answer was a straight alt-f4!');
             setCooldown('valomyr');
         }
